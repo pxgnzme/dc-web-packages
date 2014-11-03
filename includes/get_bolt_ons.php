@@ -8,6 +8,23 @@ switch($pid){
 
 	case 0:?>
 
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Additional page templates" data-pprice="500" data-pdes = "Add Products or services page template." id="b5" data-curprice = "">
+
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Additional page templates</li>
+			<li class="price">$500</li>
+			<li class="bullet-item dropdown">
+				<select>
+					<option value="1">1 added page template</option>
+					<option value="2">2 added page templates</option>
+					<option value="3">3 added page templates</option>
+				</select>
+			</li>
+			<li class="description">Additional page templates.</li>
+			</ul>
+
+		</div>
+
 		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Social Feed Intergration" data-pprice="1000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b1">
 
 			<ul class="pricing-table">
@@ -48,8 +65,41 @@ switch($pid){
 
 		</div>
 
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Adwords setup" data-pprice="500" data-pdes = "Google Adwords campaign setup" id="b6">
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Additional page templates" data-pprice="500" data-pdes = "Add Products or services page template." id="b5" data-curprice = "">
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Adwords setup</li>
+			<li class="price">$500</li>
+			<li class="description">Google Adwords campaign setup</li>
+			</ul>
+
+		</div>
+		
+
+		<?php break;
+
+	case 1:?>
+
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="1500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
+
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services template</li>
+			<li class="price">$1,500</li>
+			<li class="bullet-item dropdown">
+				<select>
+					<option value="1">1 added product category</option>
+					<option value="2">2 added product categories</option>
+					<option value="3">3 added product categories</option>
+					<option value="4">4 added product categories</option>
+					<option value="5">5 added product categories</option>
+				</select>
+			</li>
+			<li class="description">Add Products or services page template.</li>
+			</ul>
+
+		</div>
+
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="500" data-pdes = "Add Products or services page template."id="b10" data-curprice = "">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Additional page templates</li>
@@ -59,16 +109,14 @@ switch($pid){
 					<option value="1">1 added page template</option>
 					<option value="2">2 added page templates</option>
 					<option value="3">3 added page templates</option>
+					<option value="4">4 added page templates</option>
+					<option value="5">5 added page templates</option>
 				</select>
 			</li>
 			<li class="description">Additional page templates.</li>
 			</ul>
 
 		</div>
-
-		<?php break;
-
-	case 1:?>
 
 		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Social Feed Intergration" data-pprice="1000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b1">
 
@@ -153,6 +201,22 @@ switch($pid){
 		</div>
 
 		<!-- ROW 3 -->
+		
+
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Adwords setup" data-pprice="500" data-pdes = "Google Adwords campaign setup" id="b11">
+
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Adwords setup</li>
+			<li class="price">$500</li>
+			<li class="description">Google Adwords campaign setup</li>
+			</ul>
+
+		</div>
+
+		<?php break;
+
+	case 2:?>
+
 		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="1500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
 
 			<ul class="pricing-table">
@@ -190,10 +254,6 @@ switch($pid){
 			</ul>
 
 		</div>
-
-		<?php break;
-
-	case 2:?>
 
 		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Social Feed Intergration" data-pprice="1000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b1">
 
@@ -277,6 +337,16 @@ switch($pid){
 
 		</div>
 
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Adwords setup" data-pprice="500" data-pdes = "Google Adwords campaign setup" id="b9">
+
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Adwords setup</li>
+			<li class="price">$500</li>
+			<li class="description">Google Adwords campaign setup</li>
+			</ul>
+
+		</div>
+
 		<?php break;
 
 	case 3:?>
@@ -317,6 +387,16 @@ switch($pid){
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Bolt-on 4</li>
 			<li class="price">$1,000</li>
 			<li class="description">Bolt-on description here</li>
+			</ul>
+
+		</div>
+
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Adwords setup" data-pprice="500" data-pdes = "Google Adwords campaign setup" id="b5">
+
+			<ul class="pricing-table">
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Adwords setup</li>
+			<li class="price">$500</li>
+			<li class="description">Google Adwords campaign setup</li>
 			</ul>
 
 		</div>
