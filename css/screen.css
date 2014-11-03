@@ -10659,68 +10659,69 @@ form small.error {
   
   	}*/
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   /* line 21, ../compass/parts/mediaqueries.scss */
-  .ui-package, .ui-bolton {
-    width: 100%;
-    /*width:25%;*/
-  }
-
-  /* line 28, ../compass/parts/mediaqueries.scss */
-  #drop {
-    display: none;
-  }
-
-  /* line 32, ../compass/parts/mediaqueries.scss */
-  #mobile_drop {
-    display: block;
-    width: 35%;
-  }
-
-  /* line 37, ../compass/parts/mediaqueries.scss */
-  .products {
-    width: 65%;
-  }
-
-  /* line 42, ../compass/parts/mediaqueries.scss */
-  .reveal-modal, dialog {
-    width: 100%;
-  }
-
-  /* line 46, ../compass/parts/mediaqueries.scss */
   .logo_container {
     text-align: center;
   }
-  /* line 49, ../compass/parts/mediaqueries.scss */
+  /* line 24, ../compass/parts/mediaqueries.scss */
   .logo_container .logo {
     display: inline-block;
     width: 150px;
   }
 
-  /* line 58, ../compass/parts/mediaqueries.scss */
+  /* line 33, ../compass/parts/mediaqueries.scss */
   header .title_container {
     text-align: center !important;
     margin-top: 5px;
   }
-  /* line 62, ../compass/parts/mediaqueries.scss */
+  /* line 37, ../compass/parts/mediaqueries.scss */
   header .title_container h1 {
     margin-top: 0px;
     font-size: 1.2rem;
   }
 }
+@media only screen and (max-width: 700px) {
+  /* line 50, ../compass/parts/mediaqueries.scss */
+  .ui-package, .ui-bolton {
+    width: 100%;
+    /*width:25%;*/
+  }
+
+  /* line 57, ../compass/parts/mediaqueries.scss */
+  #drop {
+    display: none;
+  }
+
+  /* line 61, ../compass/parts/mediaqueries.scss */
+  #mobile_drop {
+    display: block;
+    width: 35%;
+  }
+
+  /* line 66, ../compass/parts/mediaqueries.scss */
+  .products {
+    width: 65%;
+  }
+
+  /* line 71, ../compass/parts/mediaqueries.scss */
+  .reveal-modal, dialog {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 640px) {
-  /* line 76, ../compass/parts/mediaqueries.scss */
+  /* line 82, ../compass/parts/mediaqueries.scss */
   .columns, .column {
     padding: 0px;
   }
 
-  /* line 80, ../compass/parts/mediaqueries.scss */
+  /* line 86, ../compass/parts/mediaqueries.scss */
   .droppable {
     padding: 0px;
     padding-right: 5px;
   }
 
-  /* line 88, ../compass/parts/mediaqueries.scss */
+  /* line 94, ../compass/parts/mediaqueries.scss */
   .draggable {
     /*width:90%;*/
   }
