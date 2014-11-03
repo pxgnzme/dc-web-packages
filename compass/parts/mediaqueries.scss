@@ -1,0 +1,95 @@
+/* media_queries */
+
+@media only screen and (max-width: 1365px) {
+	
+	.droppable {
+
+		width:25%;
+	
+	}
+
+	/*.draggable{
+	
+		width:50%;
+
+	}*/
+	
+}
+
+@media only screen and (max-width: 700px) {
+	
+	.ui-package, .ui-bolton{
+
+		width:100%;
+		/*width:25%;*/
+
+	}
+
+	#drop{
+		display:none;
+	}
+
+	#mobile_drop{
+		display:block;
+		width:35%;
+	}
+
+	.products {
+	    width: 65%;
+
+	}
+
+	.reveal-modal, dialog{
+		width:100%;
+	}
+
+	.logo_container{
+		text-align: center;
+
+		.logo{
+			display:inline-block;
+			width:150px;
+		}
+
+	}
+
+	header{ 
+
+		.title_container{
+			text-align: center !important;
+			margin-top:5px;
+
+			h1{
+				margin-top:0px;
+				font-size:1.2rem;
+			}
+		}
+
+
+	}
+
+	
+}
+
+@media only screen and (max-width: 640px) {
+	
+.columns,.column{
+	padding:0px;
+}
+
+.droppable{
+
+	padding: 0px;
+
+	padding-right: 5px;
+
+}
+
+.draggable{
+	
+	/*width:90%;*/
+
+}
+	
+	
+}
