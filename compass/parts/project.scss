@@ -255,27 +255,6 @@ header{
 		display:none;
 	}
 
-	.cur-package{
-		display:none;
-		background-color: #C9E4BC;
-		font-size: 1.2rem;
-		border-bottom: #79BB5D 1px solid;
-	}
-
-	.cur-boltons{
-		display:none;
-		background-color: #C9E4BC;
-		font-size: 1.8rem;
-
-		li{
-			padding-bottom:20px;
-		}
-
-		li:last-child{
-			padding-bottom:0px;
-		}
-	}
-
 	.remove-item{
 		font-family: 'foundation-icons', Helvetica, Arial, sans-serif;
 		/*font-size:24px;*/
@@ -289,9 +268,58 @@ header{
 		border-radius: 5px;
 		border-top-left-radius: 05px;
 		color:#C9E4BC;
+		position:absolute;
+		right:10px;
+		top:12px;
 
 	}
 
+	.cur-package{
+		display:none;
+		background-color: #C9E4BC;
+		font-size: 0.8rem;
+		border-bottom: #79BB5D 1px solid;
+		position: relative;
+		padding-right:30px;
+		text-align: left;
+
+	}
+
+	.cur-boltons{
+		display:none;
+		background-color: #C9E4BC;
+		padding:10px;
+
+		li{
+			padding-bottom:20px;
+			font-size: 0.8rem;
+			padding-left: 5px;
+		}
+
+		li:first-child{
+			
+		}
+
+		li:last-child{
+			padding-bottom:10px;
+		}
+
+		.bolton-item{
+			position: relative;
+			padding-right: 30px;
+			text-align: left;
+		}
+
+		.remove-item{
+
+			right:0px;
+			top:0px;
+
+		}
+
+	}
+
+	
 
 
 }
@@ -312,6 +340,14 @@ header{
 	.editbtn{
 		display:none;
 		margin-bottom:0px;
+	}
+
+	.title{
+		font-size:1.2rem;
+	}
+
+	.price{
+		font-size:1.5rem;
 	}
 }
 

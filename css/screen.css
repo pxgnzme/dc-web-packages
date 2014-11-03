@@ -10547,27 +10547,6 @@ header .title_container {
   display: none;
 }
 /* line 258, ../compass/parts/project.scss */
-.droppable .cur-package {
-  display: none;
-  background-color: #C9E4BC;
-  font-size: 1.2rem;
-  border-bottom: #79BB5D 1px solid;
-}
-/* line 265, ../compass/parts/project.scss */
-.droppable .cur-boltons {
-  display: none;
-  background-color: #C9E4BC;
-  font-size: 1.8rem;
-}
-/* line 270, ../compass/parts/project.scss */
-.droppable .cur-boltons li {
-  padding-bottom: 20px;
-}
-/* line 274, ../compass/parts/project.scss */
-.droppable .cur-boltons li:last-child {
-  padding-bottom: 0px;
-}
-/* line 279, ../compass/parts/project.scss */
 .droppable .remove-item {
   font-family: 'foundation-icons', Helvetica, Arial, sans-serif;
   /*font-size:24px;*/
@@ -10581,65 +10560,113 @@ header .title_container {
   border-radius: 5px;
   border-top-left-radius: 05px;
   color: #C9E4BC;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+/* line 277, ../compass/parts/project.scss */
+.droppable .cur-package {
+  display: none;
+  background-color: #C9E4BC;
+  font-size: 0.8rem;
+  border-bottom: #79BB5D 1px solid;
+  position: relative;
+  padding-right: 30px;
+  text-align: left;
+}
+/* line 288, ../compass/parts/project.scss */
+.droppable .cur-boltons {
+  display: none;
+  background-color: #C9E4BC;
+  padding: 10px;
+}
+/* line 293, ../compass/parts/project.scss */
+.droppable .cur-boltons li {
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+/* line 303, ../compass/parts/project.scss */
+.droppable .cur-boltons li:last-child {
+  padding-bottom: 10px;
+}
+/* line 307, ../compass/parts/project.scss */
+.droppable .cur-boltons .bolton-item {
+  position: relative;
+  padding-right: 30px;
+  text-align: left;
+}
+/* line 313, ../compass/parts/project.scss */
+.droppable .cur-boltons .remove-item {
+  right: 0px;
+  top: 0px;
 }
 
-/* line 301, ../compass/parts/project.scss */
+/* line 329, ../compass/parts/project.scss */
 .droppable.active-drop-class .pricing-table {
   border: #79BB5D 2px dashed;
 }
 
-/* line 309, ../compass/parts/project.scss */
+/* line 337, ../compass/parts/project.scss */
 #mobile_drop {
   display: none;
 }
-/* line 312, ../compass/parts/project.scss */
+/* line 340, ../compass/parts/project.scss */
 #mobile_drop .editbtn {
   display: none;
   margin-bottom: 0px;
 }
+/* line 345, ../compass/parts/project.scss */
+#mobile_drop .title {
+  font-size: 1.2rem;
+}
+/* line 349, ../compass/parts/project.scss */
+#mobile_drop .price {
+  font-size: 1.5rem;
+}
 
-/* line 320, ../compass/parts/project.scss */
+/* line 356, ../compass/parts/project.scss */
 #submit_modal #info_table {
   width: 100%;
   border: 1px #79BB5D solid;
   font-family: 'Roboto Slab',arial;
 }
-/* line 328, ../compass/parts/project.scss */
+/* line 364, ../compass/parts/project.scss */
 #submit_modal .package_row td {
   border-bottom: 2px #79BB5D solid;
   background-color: #79BB5D;
 }
-/* line 337, ../compass/parts/project.scss */
+/* line 373, ../compass/parts/project.scss */
 #submit_modal .totalrow td {
   border-top: 2px #79BB5D solid;
   background-color: #C9E4BC;
 }
 
-/* line 348, ../compass/parts/project.scss */
+/* line 384, ../compass/parts/project.scss */
 form .multiline {
   height: 18.9rem;
 }
-/* line 352, ../compass/parts/project.scss */
+/* line 388, ../compass/parts/project.scss */
 form small.error {
   display: none;
 }
 
-/* line 359, ../compass/parts/project.scss */
+/* line 395, ../compass/parts/project.scss */
 .columns, .column {
   padding: 0px 5px;
 }
 
-/* line 363, ../compass/parts/project.scss */
+/* line 399, ../compass/parts/project.scss */
 [class*="column"] + [class*="column"]:last-child {
   float: left !important;
 }
 
-/* line 367, ../compass/parts/project.scss */
+/* line 403, ../compass/parts/project.scss */
 .bolton-panel {
   margin: 0px !important;
 }
 
-/* line 371, ../compass/parts/project.scss */
+/* line 407, ../compass/parts/project.scss */
 .ui-package, .ui-bolton {
   width: 250px;
   /*width:25%;*/
@@ -10660,68 +10687,73 @@ form small.error {
   	}*/
 }
 @media only screen and (max-width: 1000px) {
-  /* line 21, ../compass/parts/mediaqueries.scss */
-  .logo_container {
-    text-align: center;
-  }
   /* line 24, ../compass/parts/mediaqueries.scss */
-  .logo_container .logo {
+  header .logo_container {
+    text-align: center;
+    width: 100%;
+  }
+  /* line 28, ../compass/parts/mediaqueries.scss */
+  header .logo_container .logo {
     display: inline-block;
     width: 150px;
   }
-
-  /* line 33, ../compass/parts/mediaqueries.scss */
+  /* line 35, ../compass/parts/mediaqueries.scss */
   header .title_container {
     text-align: center !important;
     margin-top: 5px;
+    width: 100%;
   }
-  /* line 37, ../compass/parts/mediaqueries.scss */
+  /* line 40, ../compass/parts/mediaqueries.scss */
   header .title_container h1 {
     margin-top: 0px;
     font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 50, ../compass/parts/mediaqueries.scss */
+  /* line 53, ../compass/parts/mediaqueries.scss */
   .ui-package, .ui-bolton {
     width: 100%;
     /*width:25%;*/
   }
 
-  /* line 57, ../compass/parts/mediaqueries.scss */
+  /* line 60, ../compass/parts/mediaqueries.scss */
   #drop {
     display: none;
   }
 
-  /* line 61, ../compass/parts/mediaqueries.scss */
+  /* line 64, ../compass/parts/mediaqueries.scss */
   #mobile_drop {
     display: block;
     width: 35%;
   }
 
-  /* line 66, ../compass/parts/mediaqueries.scss */
+  /* line 69, ../compass/parts/mediaqueries.scss */
   .products {
     width: 65%;
   }
 
-  /* line 71, ../compass/parts/mediaqueries.scss */
+  /* line 74, ../compass/parts/mediaqueries.scss */
   .reveal-modal, dialog {
     width: 100%;
   }
 }
 @media only screen and (max-width: 640px) {
-  /* line 82, ../compass/parts/mediaqueries.scss */
+  /* line 85, ../compass/parts/mediaqueries.scss */
   .columns, .column {
     padding: 0px;
   }
 
-  /* line 86, ../compass/parts/mediaqueries.scss */
+  /* line 89, ../compass/parts/mediaqueries.scss */
   .droppable {
     padding: 0px;
     padding-right: 5px;
   }
+  /* line 97, ../compass/parts/mediaqueries.scss */
+  .droppable .pricing-table li {
+    padding: 10px !important;
+  }
 
-  /* line 94, ../compass/parts/mediaqueries.scss */
+  /* line 105, ../compass/parts/mediaqueries.scss */
   .draggable {
     /*width:90%;*/
   }
