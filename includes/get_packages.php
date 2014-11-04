@@ -29,6 +29,7 @@
     <li class="bullet-item">Video embed</li>
     <li class="bullet-item">Google analytics setup</li>
     <li class="bullet-item">Basic on-page SEO</li>
+    <li class="bullet-item">PDF user guide</li>
     <!--<li class="cta-button"><a class="button" href="#">Buy Now</a></li>-->
   </ul>
 
@@ -48,6 +49,7 @@
     <li class="bullet-item">Video embed</li>
     <li class="bullet-item">Google analytics setup</li>
     <li class="bullet-item">Basic on-page SEO</li>
+    <li class="bullet-item">PDF user guide</li>
     <!--<li class="cta-button"><a class="button" href="#">Buy Now</a></li>-->
   </ul>
 
@@ -67,6 +69,7 @@
     <li class="bullet-item">Video embed</li>
     <li class="bullet-item">Google analytics setup</li>
     <li class="bullet-item">Basic on-page SEO</li>
+    <li class="bullet-item">PDF user guide</li>
     <!--<li class="cta-button"><a class="button" href="#">Buy Now</a></li>-->
   </ul>
 

@@ -10401,7 +10401,7 @@ header .title_container {
   font-weight: 400;
 }
 
-/* line 94, ../compass/parts/project.scss */
+/* line 93, ../compass/parts/project.scss */
 .draggable {
   /*width:260px;*/
   /*cursor:pointer;*/
@@ -10412,28 +10412,32 @@ header .title_container {
   box-sizing: border-box;
   /* Opera/IE 8+ */
 }
-/* line 104, ../compass/parts/project.scss */
+/* line 103, ../compass/parts/project.scss */
 .draggable .pricing-table {
   background-color: #FDEEF1;
   border: none;
 }
-/* line 112, ../compass/parts/project.scss */
+/* line 111, ../compass/parts/project.scss */
 .draggable .price {
   background-color: #F7ABBA;
 }
-/* line 116, ../compass/parts/project.scss */
+/* line 115, ../compass/parts/project.scss */
 .draggable .bullet-item, .draggable .description {
   background-color: transparent;
-  border: none;
+  border-bottom: 2px #F7ABBA solid;
 }
-/* line 124, ../compass/parts/project.scss */
+/* line 122, ../compass/parts/project.scss */
+.draggable .bullet-item:last-child, .draggable .description:last-child {
+  border-bottom: none;
+}
+/* line 129, ../compass/parts/project.scss */
 .draggable .title {
   cursor: grab;
   padding: 15px 10px 15px 50px;
   font-size: 1.2rem;
   text-align: left;
 }
-/* line 131, ../compass/parts/project.scss */
+/* line 136, ../compass/parts/project.scss */
 .draggable .drag_icon {
   display: block;
   width: 30px;
@@ -10441,72 +10445,72 @@ header .title_container {
   left: 10px;
   top: 10px;
 }
-/* line 139, ../compass/parts/project.scss */
+/* line 144, ../compass/parts/project.scss */
 .draggable .drag_icon img {
   max-width: 100%;
 }
-/* line 144, ../compass/parts/project.scss */
+/* line 149, ../compass/parts/project.scss */
 .draggable select {
   margin-bottom: 0px;
 }
 
-/* line 152, ../compass/parts/project.scss */
+/* line 157, ../compass/parts/project.scss */
 .products {
   float: right;
 }
 
-/* line 156, ../compass/parts/project.scss */
+/* line 161, ../compass/parts/project.scss */
 #packages_container {
   width: 98% !important;
   position: relative;
   overflow: visible !important;
 }
 
-/* line 162, ../compass/parts/project.scss */
+/* line 167, ../compass/parts/project.scss */
 .sitepanel {
   /*width:25%;*/
   width: 100%;
   position: relative;
   padding-left: 0.9375rem;
 }
-/* line 169, ../compass/parts/project.scss */
+/* line 174, ../compass/parts/project.scss */
 .sitepanel .pricing-table {
   border: #79BB5D 1px solid;
 }
-/* line 176, ../compass/parts/project.scss */
+/* line 181, ../compass/parts/project.scss */
 .sitepanel .title {
   background-color: #79BB5D;
 }
-/* line 180, ../compass/parts/project.scss */
+/* line 185, ../compass/parts/project.scss */
 .sitepanel .price {
   display: none;
 }
-/* line 185, ../compass/parts/project.scss */
+/* line 190, ../compass/parts/project.scss */
 .sitepanel .cta-button {
   display: none;
 }
-/* line 189, ../compass/parts/project.scss */
+/* line 194, ../compass/parts/project.scss */
 .sitepanel .cur-package {
   display: none;
   background-color: #C9E4BC;
   font-size: 1.2rem;
   border-bottom: #79BB5D 1px solid;
 }
-/* line 196, ../compass/parts/project.scss */
+/* line 201, ../compass/parts/project.scss */
 .sitepanel .cur-boltons {
   display: none;
   background-color: #C9E4BC;
   font-size: 1.8rem;
 }
-/* line 201, ../compass/parts/project.scss */
+/* line 206, ../compass/parts/project.scss */
 .sitepanel .cur-boltons li {
   padding-bottom: 20px;
 }
-/* line 205, ../compass/parts/project.scss */
+/* line 210, ../compass/parts/project.scss */
 .sitepanel .cur-boltons li:last-child {
   padding-bottom: 0px;
 }
-/* line 210, ../compass/parts/project.scss */
+/* line 215, ../compass/parts/project.scss */
 .sitepanel .remove-item {
   font-family: 'foundation-icons', Helvetica, Arial, sans-serif;
   /*font-size:24px;*/
@@ -10522,7 +10526,7 @@ header .title_container {
   color: #C9E4BC;
 }
 
-/* line 230, ../compass/parts/project.scss */
+/* line 235, ../compass/parts/project.scss */
 .droppable {
   /*width:25%;*/
   width: 338px;
@@ -10530,23 +10534,23 @@ header .title_container {
   float: left;
   padding-left: 0.9375rem;
 }
-/* line 238, ../compass/parts/project.scss */
+/* line 243, ../compass/parts/project.scss */
 .droppable .pricing-table {
   border: #79BB5D 1px solid;
 }
-/* line 245, ../compass/parts/project.scss */
+/* line 250, ../compass/parts/project.scss */
 .droppable .title {
   background-color: #79BB5D;
 }
-/* line 249, ../compass/parts/project.scss */
+/* line 254, ../compass/parts/project.scss */
 .droppable .price {
   display: none;
 }
-/* line 254, ../compass/parts/project.scss */
+/* line 259, ../compass/parts/project.scss */
 .droppable .cta-button {
   display: none;
 }
-/* line 258, ../compass/parts/project.scss */
+/* line 263, ../compass/parts/project.scss */
 .droppable .remove-item {
   font-family: 'foundation-icons', Helvetica, Arial, sans-serif;
   /*font-size:24px;*/
@@ -10564,7 +10568,7 @@ header .title_container {
   right: 10px;
   top: 12px;
 }
-/* line 277, ../compass/parts/project.scss */
+/* line 282, ../compass/parts/project.scss */
 .droppable .cur-package {
   display: none;
   background-color: #C9E4BC;
@@ -10574,99 +10578,99 @@ header .title_container {
   padding-right: 30px;
   text-align: left;
 }
-/* line 288, ../compass/parts/project.scss */
+/* line 293, ../compass/parts/project.scss */
 .droppable .cur-boltons {
   display: none;
   background-color: #C9E4BC;
   padding: 10px;
 }
-/* line 293, ../compass/parts/project.scss */
+/* line 298, ../compass/parts/project.scss */
 .droppable .cur-boltons li {
   padding-bottom: 20px;
   font-size: 0.8rem;
   padding-left: 5px;
 }
-/* line 303, ../compass/parts/project.scss */
+/* line 308, ../compass/parts/project.scss */
 .droppable .cur-boltons li:last-child {
   padding-bottom: 10px;
 }
-/* line 307, ../compass/parts/project.scss */
+/* line 312, ../compass/parts/project.scss */
 .droppable .cur-boltons .bolton-item {
   position: relative;
   padding-right: 30px;
   text-align: left;
 }
-/* line 313, ../compass/parts/project.scss */
+/* line 318, ../compass/parts/project.scss */
 .droppable .cur-boltons .remove-item {
   right: 0px;
   top: 0px;
 }
 
-/* line 329, ../compass/parts/project.scss */
+/* line 334, ../compass/parts/project.scss */
 .droppable.active-drop-class .pricing-table {
   border: #79BB5D 2px dashed;
 }
 
-/* line 337, ../compass/parts/project.scss */
+/* line 342, ../compass/parts/project.scss */
 #mobile_drop {
   display: none;
 }
-/* line 340, ../compass/parts/project.scss */
+/* line 345, ../compass/parts/project.scss */
 #mobile_drop .editbtn {
   display: none;
   margin-bottom: 0px;
 }
-/* line 345, ../compass/parts/project.scss */
+/* line 350, ../compass/parts/project.scss */
 #mobile_drop .title {
   font-size: 1.2rem;
 }
-/* line 349, ../compass/parts/project.scss */
+/* line 354, ../compass/parts/project.scss */
 #mobile_drop .price {
   font-size: 1.5rem;
 }
 
-/* line 356, ../compass/parts/project.scss */
+/* line 361, ../compass/parts/project.scss */
 #submit_modal #info_table {
   width: 100%;
   border: 1px #79BB5D solid;
   font-family: 'Roboto Slab',arial;
 }
-/* line 364, ../compass/parts/project.scss */
+/* line 369, ../compass/parts/project.scss */
 #submit_modal .package_row td {
   border-bottom: 2px #79BB5D solid;
   background-color: #79BB5D;
 }
-/* line 373, ../compass/parts/project.scss */
+/* line 378, ../compass/parts/project.scss */
 #submit_modal .totalrow td {
   border-top: 2px #79BB5D solid;
   background-color: #C9E4BC;
 }
 
-/* line 384, ../compass/parts/project.scss */
+/* line 389, ../compass/parts/project.scss */
 form .multiline {
   height: 18.9rem;
 }
-/* line 388, ../compass/parts/project.scss */
+/* line 393, ../compass/parts/project.scss */
 form small.error {
   display: none;
 }
 
-/* line 395, ../compass/parts/project.scss */
+/* line 400, ../compass/parts/project.scss */
 .columns, .column {
   padding: 0px 5px;
 }
 
-/* line 399, ../compass/parts/project.scss */
+/* line 404, ../compass/parts/project.scss */
 [class*="column"] + [class*="column"]:last-child {
   float: left !important;
 }
 
-/* line 403, ../compass/parts/project.scss */
+/* line 408, ../compass/parts/project.scss */
 .bolton-panel {
   margin: 0px !important;
 }
 
-/* line 407, ../compass/parts/project.scss */
+/* line 412, ../compass/parts/project.scss */
 .ui-package, .ui-bolton {
   width: 250px;
   /*width:25%;*/

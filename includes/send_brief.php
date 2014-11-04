@@ -9,7 +9,7 @@ $form_data = $_POST['formdata'];
 parse_str($form_data);
 
 $adminEmail = "aaran.casey@nzme.co.nz";
-$devEmail = "frazer.cameron@nzme.co.nz";
+//$devEmail = "frazer.cameron@nzme.co.nz";
 
 $pathToPdf = "http://radionetworkcreative.co.nz/DC/web_packages_v2.01/pdf_export/";
 
@@ -24,7 +24,7 @@ $mailcheck = spamcheck($email);
 	}else{
 
 	$subject_em1 = "brief " . $jobstr . " has been submitted";
-	$recipient_em1 = $devEmail;
+	$recipient_em1 = $adminEmail;
 
 	//create a boundary for the email.
 	$boundary = uniqid('np');
@@ -123,7 +123,7 @@ Current website:<a href="http://' . $website . '"target="_blank">' . $website . 
 		//$boundary = uniqid('np');
 
 		$headers_em2 = "MIME-Version: 1.0\r\n";
-		$headers_em2 .= "From: ".$devEmail." \r\n";
+		$headers_em2 .= "From: ".$adminEmail." \r\n";
 		$headers_em2 .= "To: ".$recipient_em1."\r\n";
 		$headers_em2 .= "Content-Type: multipart/alternative;boundary=" . $boundary . "\r\n";
 

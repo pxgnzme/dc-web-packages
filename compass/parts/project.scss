@@ -84,7 +84,6 @@ header{
 
 	.description{
 
-		
 		font-weight: 400;
 
 	}
@@ -116,7 +115,13 @@ header{
 	.bullet-item, .description{
 
 		background-color: transparent;
-		border:none;
+		border-bottom:2px #F7ABBA solid;
+
+	}
+
+	.bullet-item:last-child, .description:last-child{
+
+		border-bottom:none;
 
 	}
 	
