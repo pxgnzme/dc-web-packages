@@ -1,5 +1,7 @@
 <?php 
 
+$dev = false;
+
 $pdf = $_POST['pdf'];
 
 $jobstr = $_POST['jobid'];
@@ -8,10 +10,16 @@ $jobstr = $_POST['jobid'];
 $form_data = $_POST['formdata'];
 parse_str($form_data);
 
-$adminEmail = "aaran.casey@nzme.co.nz";
-//$devEmail = "frazer.cameron@nzme.co.nz";
+if($dev){
 
-$pathToPdf = "http://radionetworkcreative.co.nz/DC/web_packages_v2.01/pdf_export/";
+	$adminEmail = "frazer.cameron@nzme.co.nz";
+
+}else{
+
+	$adminEmail = "Aaran.Casey@nzme.co.nz";
+}
+
+$pathToPdf = "http://radionetworkcreative.co.nz/DC/dc-web-packages/pdf_export/";
 
 // Email to admin
 
@@ -124,7 +132,7 @@ Current website:<a href="http://' . $website . '"target="_blank">' . $website . 
 
 		$headers_em2 = "MIME-Version: 1.0\r\n";
 		$headers_em2 .= "From: ".$adminEmail." \r\n";
-		$headers_em2 .= "To: ".$recipient_em1."\r\n";
+		$headers_em2 .= "To: ".$recipient_em2."\r\n";
 		$headers_em2 .= "Content-Type: multipart/alternative;boundary=" . $boundary . "\r\n";
 
 		$message_em2 = "This is a MIME encoded message.";

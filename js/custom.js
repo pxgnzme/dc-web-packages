@@ -115,6 +115,8 @@ $(document).ready(function() {
 
 		$.logThis("submit");
 
+		$(this).hide();
+
 		var sendmail = true;
 
 		$(".form_feild .error").hide();
@@ -135,8 +137,6 @@ $(document).ready(function() {
 						sendmail = false;
 
 						var targetID = $(this).attr("data-id");
-
-						//$.logThis("target id :> "+targetID);
 
 						$('#valid_'+targetID).addClass('error');
 
@@ -225,6 +225,25 @@ $(document).ready(function() {
 
 		      				$.logThis(data.status);
 
+		      				if(data.status == "success"){
+
+		      					$("#submit_2").show();
+
+		      					$('#submit_modal').foundation('reveal', 'close');
+
+		      					$('#thanks_modal').foundation('reveal', 'open');
+
+		      					$("#submit_thankyou").html("<h2>Thankyou for submitting your site brief. We will be in touch soon...</h2>");
+		      					
+
+		      				}else{
+
+		      					alert("Sorry there was an error sending the brief please contact Aaran Casey Aaran.Casey@nzme.co.nz");
+
+		      					$("#submit_2").show();
+
+		      				}
+
 		      			},
 
 		      			"json"
@@ -235,6 +254,8 @@ $(document).ready(function() {
 
 		      		$.logThis("ERROR");
 
+		      		alert("Sorry there was an error sending the brief please contact Aaran Casey Aaran.Casey@nzme.co.nz");
+
 		      	}
 
 		      },
@@ -242,6 +263,10 @@ $(document).ready(function() {
 		      'json'
 		    
 		    );
+		}else{
+
+			$(this).show();
+
 		}
 
 		$.logThis("sendmail :> "+sendmail);
