@@ -80,11 +80,11 @@ switch($pid){
 
 	case 1:?>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="1500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="500" data-pdes = "Add Products or services page categories." id="b9" data-curprice = "">
 
 			<ul class="pricing-table">
-			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services template</li>
-			<li class="price">$1,500</li>
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services categories</li>
+			<li class="price">$500</li>
 			<li class="bullet-item dropdown">
 				<select>
 					<option value="1">1 added product category</option>
@@ -128,11 +128,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Blog/News template" data-pprice="3000" data-pdes = "Add Blog or news page functionality" id="b2">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Blog/News template" data-pprice="1500" data-pdes = "Add Blog or news page functionality" id="b2">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Blog/News template</li>
-			<li class="price">$3,000</li>
+			<li class="price">$1,500</li>
 			<li class="description">Add Blog or news page functionality</li>
 			</ul>
 
@@ -148,11 +148,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="3000" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="1500" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Ecomerce ready</li>
-			<li class="price">$3,000</li>
+			<li class="price">$1,500</li>
 			<li class="description">Make site ecomerce ready with enquiry forms. not connected to payment gateway</li>
 			</ul>
 
@@ -160,12 +160,12 @@ switch($pid){
 
 		<!-- ROW 2 -->
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="5000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b5">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="2500" data-pdes = ">Full E-comerce solution with 1 product/service category" id="b5">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Full Ecomerce</li>
-			<li class="price">$5,000</li>
-			<li class="description">Full ecomerce solution</li>
+			<li class="price">$2,500</li>
+			<li class="description">Full E-comerce solution with 1 product/service category</li>
 			</ul>
 
 		</div>
@@ -180,11 +180,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="2000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="1000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Mailchimp intergration</li>
-			<li class="price">$2,000</li>
+			<li class="price">$1,000</li>
 			<li class="description">Intergrate data capture from site directly into mailchimp list. includes one html email template</li>
 			</ul>
 
@@ -228,11 +228,11 @@ switch($pid){
 
 	case 2:?>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="1500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
 
 			<ul class="pricing-table">
-			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services template</li>
-			<li class="price">$1,500</li>
+			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services categories</li>
+			<li class="price">$500</li>
 			<li class="bullet-item dropdown">
 				<select>
 					<option value="1">1 added product category</option>
@@ -266,7 +266,7 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Social Feed Intergration" data-pprice="1000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b1">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Social Feed Intergration" data-pprice="1000" data-pdes = "Intergrate twitter, facebook or other social media feeds" id="b1">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Social Feed Intergration</li>
@@ -276,11 +276,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Blog/News template" data-pprice="3000" data-pdes = "Add Blog or news page functionality"id="b2">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Blog/News template" data-pprice="1500" data-pdes = "Add Blog or news page functionality"id="b2">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Blog/News template</li>
-			<li class="price">$3,000</li>
+			<li class="price">$1,500</li>
 			<li class="description">Add Blog or news page functionality</li>
 			</ul>
 
@@ -296,11 +296,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="3000" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="1,500" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Ecomerce ready</li>
-			<li class="price">$2,000</li>
+			<li class="price">$1,500</li>
 			<li class="description">Make site ecomerce ready with enquiry forms. not connected to payment gateway</li>
 			</ul>
 
@@ -308,12 +308,12 @@ switch($pid){
 
 		<!-- ROW 2 -->
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="5000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b5">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="2,500" data-pdes = "Full E-comerce solution with 1 product/service category" id="b5">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Full Ecomerce</li>
-			<li class="price">$4,000</li>
-			<li class="description">Full ecomerce solution</li>
+			<li class="price">$2,500</li>
+			<li class="description">Full E-comerce solution with 1 product/service category</li>
 			</ul>
 
 		</div>
@@ -328,11 +328,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="2000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="1000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Mailchimp intergration</li>
-			<li class="price">$2,000</li>
+			<li class="price">$1,000</li>
 			<li class="description">Intergrate data capture from site directly into mailchimp list. includes one html email template</li>
 			</ul>
 
@@ -372,11 +372,11 @@ switch($pid){
 
 	case 3:?>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services template" data-pprice="1500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Products/Services categories" data-pprice="500" data-pdes = "Add Products or services page template." id="b9" data-curprice = "">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Products/Services template</li>
-			<li class="price">$1,500</li>
+			<li class="price">$500</li>
 			<li class="bullet-item dropdown">
 				<select>
 					<option value="1">1 added product category</option>
@@ -410,7 +410,7 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="3000" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Ecomerce ready" data-pprice="1,500" data-pdes = "Make site ecomerce ready with enquiry forms. not connected to payment gateway" id="b4">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Ecomerce ready</li>
@@ -422,7 +422,7 @@ switch($pid){
 
 		<!-- ROW 2 -->
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="5000" data-pdes = ">Intergrate twitter, facebook or other social media feeds" id="b5">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Full Ecomerce" data-pprice="2,500" data-pdes = "Full E-comerce solution with 1 product/service category" id="b5">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Full Ecomerce</li>
@@ -442,11 +442,11 @@ switch($pid){
 
 		</div>
 
-		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="2000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
+		<div class="columns draggable ui-bolton" data-item = "bolton" data-pname="Mailchimp intergration" data-pprice="1,000" data-pdes = "Intergrate data capture from site directly into mailchimp list. includes one html email template" id="b7">
 
 			<ul class="pricing-table">
 			<li class="title"><span class = "drag_icon"><img src="img/drag_icon.svg" alt=""/></span>Mailchimp intergration</li>
-			<li class="price">$2,000</li>
+			<li class="price">$1,000</li>
 			<li class="description">Intergrate data capture from site directly into mailchimp list. includes one html email template</li>
 			</ul>
 
